@@ -1,0 +1,51 @@
+site_name: CE-RISE DPP Data Model Architecture
+site_description: Documentation of the overall CE-RISE Digital Product Passport (DPP) data-model architecture
+site_url: https://ce-rise-models.codeberg.page/dpp-architecture/
+repo_url: https://codeberg.org/ce-rise-models/dpp-architecture
+repo_name: ce-rise-models/dpp-architecture
+
+theme:
+    name: material
+    palette:
+        - scheme: default
+          primary: teal
+          accent: cyan
+          toggle:
+              icon: material/brightness-7
+              name: Switch to dark mode
+        - scheme: slate
+          primary: teal
+          accent: cyan
+          toggle:
+              icon: material/brightness-4
+              name: Switch to light mode
+    features:
+        - navigation.tabs
+        - navigation.sections
+        - navigation.expand
+        - search.suggest
+        - search.highlight
+        - content.code.copy
+
+plugins:
+    - search
+
+markdown_extensions:
+    - admonition
+    - attr_list
+    - def_list
+    - md_in_html
+    - toc:
+          permalink: true
+    - pymdownx.details
+    - pymdownx.superfences
+    - pymdownx.tabbed:
+          alternate_style: true
+
+nav:
+    - Home: index.md
+
+extra:
+    copyright: |
+        &copy; 2025 CE-RISE consortium. Licensed under
+        <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>.
