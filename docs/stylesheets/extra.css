@@ -1,20 +1,21 @@
 /* Add CE-RISE logo to header */
-.md-header__inner::before {
+.md-header__title::before {
     content: "";
-    background-image: url("../../CERISE_RGB-standard-PNG.png");
+    background-image: url("CERISE_RGB-standard-PNG.png");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-    width: 120px;
-    height: 40px;
+    width: 100px;
+    height: 35px;
     display: inline-block;
-    margin-right: 1rem;
+    margin-right: 15px;
     vertical-align: middle;
 }
 
-/* White background */
+/* White background for the site */
 [data-md-color-scheme="default"] {
     --md-default-bg-color: #ffffff;
+    --md-default-fg-color: #333333;
 }
 
 .md-main__inner {
@@ -23,4 +24,16 @@
 
 .md-content {
     background-color: #ffffff;
+}
+
+.md-header {
+    background-color: #ffffff;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+    .md-header__title::before {
+        width: 80px;
+        height: 28px;
+    }
 }
