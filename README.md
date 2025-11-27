@@ -58,7 +58,7 @@ The documentation website is automatically built and deployed via Forgejo Action
 ├── docs/                     # Documentation source files
 │   ├── index.md                      # Homepage content
 │   ├── stylesheets/                  # Custom CSS
-│   └── CERISE_RGB-standard-PNG.png   # CE-RISE logo
+│   └── logo.png                      # CE-RISE logo
 │   └── ...                           # Rest of the documentation files
 ├── mkdocs.yml                # MkDocs configuration
 └── .forgejo/workflows/       # CI/CD pipeline

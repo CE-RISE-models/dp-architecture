@@ -37,6 +37,19 @@ markdown_extensions:
 
 nav:
     - Home: index.md
+    - Approach:
+          - Aims & Objectives: approach/aims.md
+          - Approach: approach/principles.md
+    - Architecture:
+          - Overview: architecture/index.md
+          - Profiles: architecture/profiles.md
+    - Components:
+          - Overview: components/index.md
+          - Product Profile: components/product-profile.md
+          - Available Models: components/models.md
+    - Roadmap:
+          - Overview: roadmap/index.md
+          - Implementation Plan: roadmap/implementation.md
 
 extra:
     copyright: |
