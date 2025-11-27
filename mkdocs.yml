@@ -46,9 +46,7 @@ nav:
     - Components:
           - Overview: components/index.md
           - Product Profile: components/product-profile.md
-          - Available Models: components/models.md
     - Roadmap:
-          - Overview: roadmap/index.md
           - Implementation Plan: roadmap/implementation.md
 
 extra:
