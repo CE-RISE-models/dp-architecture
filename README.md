@@ -1,6 +1,67 @@
-# CE-RISE Digital Product Passport (DPP) data-model architecture
+# CE-RISE DPP Architecture Documentation
 
-Documentation of the overall CE-RISE DPP data-model architecture, including the structure of core and optional models, their relationships, profiles, and the conceptual approach used to organise and implement Digital Product Passport information. Serves as the source for the project’s published documentation website: [https://ce-rise-models.codeberg.page/dpp-architecture/](https://ce-rise-models.codeberg.page/dpp-architecture/).
+This repository contains the source files for the CE-RISE Digital Product Passport (DPP) data model architecture documentation website, published at: [https://ce-rise-models.codeberg.page/dpp-architecture/](https://ce-rise-models.codeberg.page/dpp-architecture/)
+
+The documentation website explains the approach to data modeling developed and adopted in the CE-RISE project for Digital Product Passports. **For the actual documentation content, please visit the published website.**
+
+## Repository Purpose
+
+This repository serves as:
+- Source for the documentation website built with MkDocs Material
+- Version control for documentation content and structure
+- CI/CD pipeline for automatic website deployment
+
+## Updating Documentation
+
+### Prerequisites
+
+- Python 3.x
+- MkDocs Material theme
+
+### Local Development
+
+1. Clone the repository:
+   ```bash
+   git clone https://codeberg.org/ce-rise-models/dpp-architecture.git
+   cd dpp-architecture
+   ```
+
+2. Install dependencies:
+   ```bash
+   pip install mkdocs-material
+   ```
+
+3. Start local development server:
+   ```bash
+   mkdocs serve
+   ```
+
+4. View the site at `http://localhost:8000`
+
+### Adding Content
+
+1. Create or edit Markdown files in the `docs/` directory
+2. Update the navigation structure in `mkdocs.yml` if adding new pages
+3. Commit and push changes to the `main` branch
+
+### Automatic Deployment
+
+The documentation website is automatically built and deployed via Forgejo Actions when changes are pushed to the `main` branch. The workflow:
+
+1. Builds the MkDocs site
+2. Deploys to Codeberg Pages
+3. Makes the site available at the published URL
+
+### File Structure
+
+```
+├── docs/                   # Documentation source files
+│   ├── index.md           # Homepage content
+│   ├── stylesheets/       # Custom CSS
+│   └── CERISE_RGB-standard-PNG.png  # CE-RISE logo
+├── mkdocs.yml             # MkDocs configuration
+└── .forgejo/workflows/    # CI/CD pipeline
+```
 
 ---
 
