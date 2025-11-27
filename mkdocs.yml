@@ -6,7 +6,8 @@ repo_name: ce-rise-models/dpp-architecture
 
 theme:
     name: material
-    logo: CERISE_RGB-standard-PNG.png
+    logo: logo.png
+    favicon: favicon.png
     palette:
         scheme: default
         primary: white
