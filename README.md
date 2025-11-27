@@ -55,12 +55,13 @@ The documentation website is automatically built and deployed via Forgejo Action
 ### File Structure
 
 ```
-├── docs/                   # Documentation source files
-│   ├── index.md           # Homepage content
-│   ├── stylesheets/       # Custom CSS
-│   └── CERISE_RGB-standard-PNG.png  # CE-RISE logo
-├── mkdocs.yml             # MkDocs configuration
-└── .forgejo/workflows/    # CI/CD pipeline
+├── docs/                     # Documentation source files
+│   ├── index.md                      # Homepage content
+│   ├── stylesheets/                  # Custom CSS
+│   └── CERISE_RGB-standard-PNG.png   # CE-RISE logo
+│   └── ...                           # Rest of the documentation files
+├── mkdocs.yml                # MkDocs configuration
+└── .forgejo/workflows/       # CI/CD pipeline
 ```
 
 ---
@@ -83,4 +84,4 @@ Attribution: CE-RISE project (Grant Agreement No. 101092281) and the individual 
   <img src="https://nilu.no/wp-content/uploads/2023/12/nilu-logo-seagreen-rgb-300px.png" alt="NILU logo" width="40"/>
 </a>
 
-Developed by NILU (Riccardo Boero — ribo@nilu.no) within the CE-RISE project.  
+Developed by NILU (Riccardo Boero — ribo@nilu.no) within the CE-RISE project.
