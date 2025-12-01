@@ -111,5 +111,10 @@ Contains infrastructure-level metadata:
 - `AccessLevel`  
 - `DataAccessLongevity`  
 - `InteroperabilityMetadata`
+- `OntologyMetadata` - References to supported data modeling standards and schemas
+  - Supported schema URLs and versions
+  - Primary and extended ontology references  
+  - Data representation format capabilities
+  - Validation and conformance endpoints
 
 For detailed specifications and internal structure of each model, see the individual component repositories.

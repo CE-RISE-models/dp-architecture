@@ -38,3 +38,11 @@ Reusable components linked by reference to multiple models.
 ### 8. Technical Infrastructure Layer
 DPP-specific technical metadata relevant to data records and interoperability.
 - **Technical Infrastructure** - Data access, security, carriers, and interoperability metadata
+  - Data Access and Security configurations
+  - Data Carrier specifications
+  - Access Level definitions
+  - **Ontology Metadata** - Declares supported data modeling standards and schemas
+    - List of supported schema URLs and versions
+    - Primary and extended ontology references
+    - Supported data representation formats
+    - Capability declarations for data interoperability
