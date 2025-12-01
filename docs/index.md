@@ -36,6 +36,26 @@ Track implementation status and upcoming model availability:
 3. **Need details about specific models?** Navigate through Components for references to model repositories and schemas
 4. **Planning a project?** Review the [Implementation Plan](roadmap/implementation.md) for model availability status
 
+## Citation
+
+If you use this work in your research or projects, please cite it as:
+
+**Boero, R. (2025).** *CE-RISE Digital Product Passport (DPP) data-model architecture.* DOI: [10.5281/zenodo.17776989](https://doi.org/10.5281/zenodo.17776989)
+
+BibTeX:
+```bibtex
+@software{boero2025cerise,
+  title = {CE-RISE Digital Product Passport (DPP) data-model architecture},
+  author = {Boero, Riccardo},
+  year = {2025},
+  doi = {10.5281/zenodo.17776989},
+  url = {https://ce-rise-models.codeberg.page/dpp-architecture/},
+  organization = {NILU}
+}
+```
+
+For more citation formats, see the [CITATION.cff](https://codeberg.org/CE-RISE-models/dpp-architecture/src/branch/main/CITATION.cff) file in the repository.
+
 ---
 
 <img src="https://ce-rise.eu/wp-content/uploads/2023/01/EN-Funded-by-the-EU-PANTONE-e1663585234561-1-1.png" alt="EU emblem" width="200"/>
