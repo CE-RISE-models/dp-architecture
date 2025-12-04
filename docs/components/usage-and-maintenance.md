@@ -4,4 +4,4 @@
 
 **Generated Schemas**: [https://ce-rise-models.codeberg.page/usage-and-maintenance/](https://ce-rise-models.codeberg.page/usage-and-maintenance/)
 
-**Archived Version with DOI**: [https://doi.org/](https://doi.org/)
+**Archived Version with DOI**: [https://doi.org/10.5281/zenodo.17816062](https://doi.org/10.5281/zenodo.17816062)
