@@ -13,7 +13,7 @@ Static, foundational, always present.
 Models describing events, operations, and time-dependent changes.
 
 * **[Traceability and Lifecycle Events](traceability-and-life-cycle-events.md)** - Dynamic traceability and supply-chain events
-* **Diagnostic Results** - Structured outputs from diagnostic, repair, service, or automated condition-assessment operations
+* **[Diagnostic Results](diagnostic-results.md)** - Structured outputs from diagnostic, repair, service, or automated condition-assessment operations
 
 ### 3. Operation & Use Layer
 Models describing how a product is used, maintained, and operated.
