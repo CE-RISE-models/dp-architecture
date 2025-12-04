@@ -4,4 +4,4 @@
 
 **Generated Schemas**: [https://ce-rise-models.codeberg.page/diagnostic-results/](https://ce-rise-models.codeberg.page/diagnostic-results/)
 
-**Archived Version with DOI**: [https://doi.org/](https://doi.org/)
+**Archived Version with DOI**: [https://doi.org/10.5281/zenodo.17814486](https://doi.org/10.5281/zenodo.17814486)
