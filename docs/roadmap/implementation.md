@@ -12,7 +12,7 @@ The following table shows the current development status of all planned models i
 | | `traceability-and-life-cycle-events` | Completed | [Traceability and Life Cycle Events](../components/traceability-and-life-cycle-events.md) | Dynamic traceability and supply-chain events |
 | | `diagnostic-results` | Completed | [Diagnostic Results](../components/diagnostic-results.md) | Event-bound diagnostic outputs |
 | **Operation & Use Layer** |
-| | `usage-and-maintenance` | Planned | - | Usage and maintenance data and instructions |
+| | `usage-and-maintenance` | Under Development | [Usage and Maintenance](../components/usage-and-maintenance.md) | Usage and maintenance data and instructions |
 | **Impact Assessment Layer** |
 | | `integrated-lca` | Planned | - | Environmental and social LCA data |
 | | `see-impacts-specification` | Planned | - | CE-RISE SEE module support |

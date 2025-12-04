@@ -48,6 +48,7 @@ nav:
           - Product Profile: components/product-profile.md
           - Traceability and Lifecycle Events: components/traceability-and-life-cycle-events.md
           - Diagnostic Results: components/diagnostic-results.md
+          - Usage and Maintenance: components/usage-and-maintenance.md
           - RE Indicators Specification: components/re-indicators-specification.md
     - Roadmap:
           - Implementation Plan: roadmap/implementation.md

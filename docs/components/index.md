@@ -18,7 +18,7 @@ Models describing events, operations, and time-dependent changes.
 ### 3. Operation & Use Layer
 Models describing how a product is used, maintained, and operated.
 
-* **Usage and Maintenance** - Maintenance, repair, and usage-related data and instructions
+* **[Usage and Maintenance](usage-and-maintenance.md)** - Maintenance, repair, and usage-related data and instructions
 
 ### 4. Impact Assessment Layer
 Models supporting environmental, economic, and social impact calculations.
