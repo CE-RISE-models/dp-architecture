@@ -2,7 +2,7 @@
 
 ## Graphical Representation
 
-*Graphical representation to be added - showing the architecture of core layers, value-added information layers, and cross-cutting utility layers*
+![DPP Architecture](../dpp-architecture.png)
 
 ## Three-Group Architecture Structure
 
