@@ -2,7 +2,7 @@
 
 ## Graphical Representation
 
-![DPP Architecture](../dpp-architecture.png)
+[![DPP Architecture](../dpp-architecture.png)](../dpp-architecture.png){: target="_blank"}
 
 ## Three-Group Architecture Structure
 
