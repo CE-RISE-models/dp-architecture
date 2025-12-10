@@ -8,38 +8,39 @@ This is achieved by prescribing only one core model component: the **product-pro
 
 In the analogy with the human passport, this is like the name and date of birth - immutable information to identify the user, or even the fingerprints in the RFID chip of the passport (maybe also the picture, though people and pictures need to be updated some time).
 
-## Layered Architecture Organization
+## Three-Group Architecture Organization
 
-To manage the complexity of modular composition, we organize the architecture into functional layers, each serving specific purposes while maintaining interoperability:
+To manage the complexity of modular composition, we organize the architecture into three main groups containing functional layers, each serving specific purposes while maintaining interoperability:
 
-### 1. Core Product Layer
-Static, foundational, always present - contains the **product-profile** as the required foundation.
+### A. Core Layers
+The foundation of every Digital Product Passport:
 
-### 2. Dynamic Lifecycle Layer
-Models describing events, operations, and time-dependent changes throughout the product lifecycle.
+* **Product Identification** - Static, foundational, always present - contains the **product-profile** as the required foundation
+* **DPP Metadata** - Three models for comprehensive metadata management:
+  * `dpp-record-metadata` - Semantic and structural metadata for interpreting the DPP
+  * `dpp-access-and-governance` - Operational and access control metadata
+  * `dpp-record-custody` - Chain of custody and governance history
 
-### 3. Operation & Use Layer
-Models describing how a product is used, maintained, and operated.
+### B. Value-Added Information Layers
+Domain-specific information that creates value throughout the product lifecycle:
 
-### 4. Impact Assessment Layer
-Models supporting environmental, economic, and social impact calculations.
+* **Dynamic Lifecycle** - Events, operations, and time-dependent changes throughout the product lifecycle
+* **Operation & Use** - How a product is used, maintained, and operated
+* **Impact Assessment** - Environmental, social, and economic impact calculations with underlying product-system models
+* **Circularity & End-of-Life** - Circularity criteria, metrics, and end-of-life pathways
+* **Legal, Compliance & Standards** - Regulatory, certification, and normative requirements
 
-### 5. Circularity & End-of-Life Layer
-Models defining circularity criteria and end-of-life pathways.
+### C. Cross-Cutting Utility Layers
+Reusable components that enhance data quality and reliability across all other layers:
 
-### 6. Legal, Compliance & Standards Layer
-Models describing regulatory, certification, and normative requirements.
-
-### 7. Cross-Cutting Utility Layer
-Reusable components linked by reference to multiple models across layers.
-
-### 8. Technical Infrastructure Layer
-DPP-specific technical metadata relevant to data records and interoperability.
+* **Uncertainty** - Generic structures for representing uncertainty in any measurement or assessment
+* **Data Quality** - Metadata for provenance, representativeness, completeness, and assessment pedigree
 
 ## Modular Composition
 
-This layered organization enables:
+This three-group organization enables:
 
+* **Clear separation of concerns** between core infrastructure, domain-specific value, and quality assurance
 * **Independent modules** that can be developed and maintained separately within each layer
 * **Cross-cutting models** that provide reusable components across different layers and contexts
 * **Overlapped models** allowing different representations of the same information
@@ -53,8 +54,28 @@ Users are provided the possibility to build profiles of DPP data models to creat
 * Storing data according to their technical and business requirements  
 * Making sense of information stored in DPPs across different systems and standards
 
+## Architecture Benefits
+
+### Scalability
+The three-group structure allows organizations to:
+* Start with Core Layers for basic DPP functionality
+* Progressively add Value-Added layers based on business needs
+* Apply Cross-Cutting utilities where data quality matters most
+
+### Interoperability
+By separating concerns into groups:
+* Core layers ensure universal product identification
+* Value-Added layers can vary by industry or use case
+* Cross-Cutting layers provide consistent quality metadata
+
+### Future-Proofing
+The architecture accommodates evolution through:
+* New models within existing layers
+* New layers within the established groups
+* Alternative models for the same purpose without breaking compatibility
+
 ## Flexibility Benefits
 
 This flexibility in the approach allows sophisticated data representations to be easy and less expensive to deploy, but also to be adopted. We do not want to force users into filling in everything but to give the opportunity to use rich information. Hence the possibility to represent traceability, uncertainty, assess data quality, compliance, etc. - all possible and integratable, at low cost for both system designers and system users.
 
-This approach ensures that while maintaining a common foundation through the product-profile, the architecture remains flexible and adaptable to diverse use cases and evolving requirements.
+This approach ensures that while maintaining a common foundation through the product-profile and comprehensive DPP metadata models, the architecture remains flexible and adaptable to diverse use cases and evolving requirements. The three-group structure provides clarity in understanding which components are essential (Core), which add specific value (Value-Added Information), and which ensure quality and trust (Cross-Cutting Utility).

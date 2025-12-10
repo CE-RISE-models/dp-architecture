@@ -15,26 +15,26 @@ Start here to understand our vision and methodology:
 
 ### Architecture
 
-Explore the technical structure:
+Explore the technical structure organized into three main groups:
 
-* **[Architecture Overview](architecture/index.md)** - Visual representation and model-level structure
+* **[Architecture Overview](architecture/index.md)** - Three-group structure: Core Layers, Value-Added Information Layers, and Cross-Cutting Utility Layers
 * **[Profiles](architecture/profiles.md)** - How to compose models for specific use cases
 
 ### Components
-Need details about a specific data model? Navigate through available data models and find references to more info.
+Need details about a specific data model? Navigate through available data models organized by architectural group and find references to more info.
 
 ### Roadmap
 
 Track implementation status and upcoming model availability:
 
-* **[Implementation Plan](roadmap/implementation.md)** - Current status of model development and what's coming next
+* **[Implementation Plan](roadmap/implementation.md)** - Current status of model development organized by architectural groups
 
 ## Quick Start
 
 1. **New to DPP modeling?** Begin with [Aims & Objectives](approach/aims.md) to understand the vision
-2. **Want to see the structure?** Go to [Architecture Overview](architecture/index.md) for the big picture
-3. **Need details about specific models?** Navigate through Components for references to model repositories and schemas
-4. **Planning a project?** Review the [Implementation Plan](roadmap/implementation.md) for model availability status
+2. **Want to see the structure?** Go to [Architecture Overview](architecture/index.md) to explore the three-group architecture
+3. **Need details about specific models?** Navigate through Components organized by Core, Value-Added, and Cross-Cutting layers
+4. **Planning a project?** Review the [Implementation Plan](roadmap/implementation.md) for model availability by architectural group
 
 ## Citation
 

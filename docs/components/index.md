@@ -1,56 +1,125 @@
 # Components
 
-The CE-RISE DPP architecture is organized into a layered modular structure, where each layer serves specific functional purposes while maintaining interoperability across the system.
+The CE-RISE DPP architecture is organized into three main groups of components, each containing functional layers with specific data models that maintain interoperability across the system.
 
-## Layered Architecture Overview
+## Architecture Components by Group
 
-### 1. Core Product Layer
-Static, foundational, always present.
+---
 
-* **[Product Profile](product-profile.md)** - Defines the immutable identity and origin of a product
+## A. Core Layers
 
-### 2. Dynamic Lifecycle Layer
-Models describing events, operations, and time-dependent changes.
+Foundation components that are essential for every Digital Product Passport.
+
+### Product Identification Layer
+* **[Product Profile](product-profile.md)** - Defines the immutable identity, origin, and basic specification of the product (required)
+
+### DPP Metadata Layer
+Models providing metadata for DPP record management and governance:
+
+* **DPP Record Metadata** *(planned)* - Semantic and structural metadata of the DPP record
+  * Ontology bindings and schema references
+  * Data model versions and profiles
+  * Supported representation formats
+  * Validation schemas
+  
+* **DPP Access and Governance** *(planned)* - Operational and access-related metadata
+  * Access levels and permissions
+  * Security settings
+  * Data carrier specifications
+  * Longevity policies
+  * Interoperability configurations
+  
+* **DPP Record Custody** *(planned)* - Chain of custody and governance history
+  * Custody event tracking
+  * Custodian identification
+  * Transfer authorizations
+  * Integrity evidence (signatures, hashes)
+
+---
+
+## B. Value-Added Information Layers
+
+Domain-specific components that provide rich information throughout the product lifecycle.
+
+### Dynamic Lifecycle Layer
+Models capturing time-dependent changes and events:
 
 * **[Traceability and Lifecycle Events](traceability-and-life-cycle-events.md)** - Dynamic traceability and supply-chain events
-* **[Diagnostic Results](diagnostic-results.md)** - Structured outputs from diagnostic, repair, service, or automated condition-assessment operations
+* **[Diagnostic Results](diagnostic-results.md)** - Structured outputs from diagnostic, repair, service, or condition-assessment operations
 
-### 3. Operation & Use Layer
-Models describing how a product is used, maintained, and operated.
+### Operation & Use Layer
+* **[Usage and Maintenance](usage-and-maintenance.md)** - Product usage, service/repair actions, and instructions for operation and upkeep
 
-* **[Usage and Maintenance](usage-and-maintenance.md)** - Maintenance, repair, and usage-related data and instructions
+### Impact Assessment Layer
+Models for comprehensive impact calculations:
 
-### 4. Impact Assessment Layer
-Models supporting environmental, economic, and social impact calculations.
+* **Integrated LCA** *(planned)* - Environmental, social, and economic life cycle assessment data
+* **Product System** *(planned)* - Underlying data model for structuring activities, flows, and elementary exchanges
 
-* **Integrated LCA** - Environmental and social life cycle assessment data
-* **SEE Impacts Specification** - Supporting CE-RISE SEE module calculations
+### Circularity & End-of-Life Layer
+Circularity metrics and end-of-life pathways:
 
-### 5. Circularity & End-of-Life Layer
-Models defining circularity criteria and EoL pathways.
+* **Circularity and EoL** *(planned)* - Design for circularity, performance scores, and end-of-life information
+* **[RE Indicators Specification](re-indicators-specification.md)** *(under development)* - Specific end-of-life indicators and recovery options
 
-* **Circularity and EoL** - Design for circularity, performance factors, and end-of-life information
-* **[RE Indicators Specification](re-indicators-specification.md)** - Specific EoL indicators and options
+### Legal, Compliance & Standards Layer
+Regulatory and standards conformity:
 
-### 6. Legal, Compliance & Standards Layer
-Models describing regulatory, certification, and normative requirements.
+* **Compliance and Standards** *(planned)* - Regulatory compliance, certifications, and evidence documentation
+* **Conformity Requirements Specification** *(planned)* - Standard-specific data requirements and procedures
 
-* **Compliance and Standards** - Regulatory compliance, certifications, and evidence documentation
+---
 
-### 7. Cross-Cutting Utility Layer
-Reusable components linked by reference to multiple models.
+## C. Cross-Cutting Utility Layers
 
-* **Uncertainty and Quality** - Data quality, uncertainty structures, and provenance metadata
+Reusable components that support data quality and reliability across all other layers.
 
-### 8. Technical Infrastructure Layer
-DPP-specific technical metadata relevant to data records and interoperability.
+### Uncertainty Layer
+* **Uncertainty Quantification** *(planned)* - Generic structures for representing uncertainty in measurements, assessments, and indicators
 
-* **Technical Infrastructure** - Data access, security, carriers, and interoperability metadata
-  * Data Access and Security configurations
-  * Data Carrier specifications
-  * Access Level definitions
-  * **Ontology Metadata** - Declares supported data modeling standards and schemas
-    * List of supported schema URLs and versions
-    * Primary and extended ontology references
-    * Supported data representation formats
-    * Capability declarations for data interoperability
+### Data Quality Layer
+* **Data Quality Framework** *(planned)* - Metadata for data quality, provenance, representativeness, completeness, and assessment pedigree
+
+---
+
+## Component Status
+
+### Available Now
+These models are completed and ready for use:
+- [Product Profile](product-profile.md) - Core product identity
+- [Traceability and Lifecycle Events](traceability-and-life-cycle-events.md) - Supply chain tracking
+- [Diagnostic Results](diagnostic-results.md) - Service and maintenance outputs
+- [Usage and Maintenance](usage-and-maintenance.md) - Operation support
+
+### Under Development
+- [RE Indicators Specification](re-indicators-specification.md) - End-of-life indicators
+
+### Coming Soon
+Priority models in active planning:
+- DPP Record Metadata - Semantic interpretation
+- DPP Access and Governance - Access control
+- DPP Record Custody - Audit and integrity
+- Uncertainty Quantification - Data reliability
+- Data Quality Framework - Trust and transparency
+
+### Future Releases
+- Integrated LCA - Impact assessments
+- Product System - LCA modeling
+- Circularity and EoL - Complete circularity features
+- Compliance and Standards - Regulatory support
+- Conformity Requirements Specification - Standards compliance
+
+---
+
+## Using the Components
+
+### Modularity
+Each component can be used independently or combined with others based on your specific use case requirements.
+
+### Interoperability
+All components follow standardized interfaces to ensure seamless integration across different systems and platforms.
+
+### Extensibility
+The architecture allows for custom extensions and additional models as new requirements emerge.
+
+For detailed specifications and schemas for each model, visit the individual component pages or their respective repositories.
