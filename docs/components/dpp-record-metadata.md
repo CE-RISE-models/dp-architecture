@@ -4,4 +4,4 @@
 
 **Generated Schemas**: [https://ce-rise-models.codeberg.page/dpp-record-metadata/](https://ce-rise-models.codeberg.page/dpp-record-metadata/)
 
-**Archived Version with DOI**: [https://doi.org/](https://doi.org/)
+**Archived Version with DOI**: [https://doi.org/10.5281/zenodo.17880431](https://doi.org/10.5281/zenodo.17880431)
