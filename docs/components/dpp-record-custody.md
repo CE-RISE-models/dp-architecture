@@ -4,4 +4,4 @@
 
 **Generated Schemas**: [https://ce-rise-models.codeberg.page/dpp-record-custody/](https://ce-rise-models.codeberg.page/dpp-record-custody/)
 
-**Archived Version with DOI**: [https://doi.org/](https://doi.org/)
+**Archived Version with DOI**: [https://doi.org/10.5281/zenodo.17900533](https://doi.org/10.5281/zenodo.17900533)
