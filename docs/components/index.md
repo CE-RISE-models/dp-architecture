@@ -29,7 +29,7 @@ Models providing metadata for DPP record management and governance:
   * Longevity policies
   * Interoperability configurations
   
-* **DPP Record Custody** - Chain of custody and governance history
+* **[DPP Record Custody](dpp-record-custody.md)** - Chain of custody and governance history
   * Custody event tracking
   * Custodian identification
   * Transfer authorizations
