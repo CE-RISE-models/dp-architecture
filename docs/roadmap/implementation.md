@@ -13,7 +13,7 @@ The following table shows the current development status of all planned models i
 | **DPP Metadata** |
 | | `dpp-record-metadata` | Completed | [DPP Record Metadata](../components/dpp-record-metadata.md) | Semantic and structural metadata |
 | | `dpp-access-and-governance` | Completed | [DPP Access and Governance](../components/dpp-access-and-governance.md) | Access and operational metadata |
-| | `dpp-record-custody` | Planned | - | Chain of custody and governance history |
+| | `dpp-record-custody` | Under Development | [DPP Record Custody](../components/dpp-record-custody.md) | Chain of custody and governance history |
 
 ## B. Value-Added Information Layers
 
