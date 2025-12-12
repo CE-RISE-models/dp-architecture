@@ -45,6 +45,7 @@ Domain-specific components that provide rich information throughout the product 
 Models capturing time-dependent changes and events:
 
 I. **[Traceability and Lifecycle Events](traceability-and-life-cycle-events.md)** - Dynamic traceability and supply-chain events
+
 II. **[Diagnostic Results](diagnostic-results.md)** - Structured outputs from diagnostic, repair, service, or condition-assessment operations
 
 #### Operation & Use Layer
@@ -54,18 +55,21 @@ I. **[Usage and Maintenance](usage-and-maintenance.md)** - Product usage, servic
 Models for comprehensive impact calculations:
 
 I. **[Integrated LCA](integrated-lca.md)** - Environmental, social, and economic life cycle assessment data
+
 II. **Product System** *(planned)* - Underlying data model for structuring activities, flows, and elementary exchanges
 
 #### Circularity & End-of-Life Layer
 Circularity metrics and end-of-life pathways:
 
 I. **Circularity and EoL** *(planned)* - Design for circularity, performance scores, and end-of-life information
+
 II. **[RE Indicators Specification](re-indicators-specification.md)** *(under development)* - Specific end-of-life indicators and recovery options
 
 #### Legal, Compliance & Standards Layer
 Regulatory and standards conformity:
 
 I. **Compliance and Standards** *(planned)* - Regulatory compliance, certifications, and evidence documentation
+
 II. **Conformity Requirements Specification** *(planned)* - Standard-specific data requirements and procedures
 
 ---
