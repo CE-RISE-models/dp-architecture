@@ -10,10 +10,10 @@ The CE-RISE DPP architecture is organized into three main groups of components, 
 
 Foundation components that are essential for every Digital Product Passport.
 
-#### Product Identification Layer
+#### <u>Product Identification Layer</u>
 I. **[Product Profile](product-profile.md)** - Defines the immutable identity, origin, and basic specification of the product (required)
 
-#### DPP Metadata Layer
+#### <u>DPP Metadata Layer</u>
 Models providing metadata for DPP record management and governance:
 
 I. **[DPP Record Metadata](dpp-record-metadata.md)** - Semantic and structural metadata of the DPP record
@@ -41,31 +41,31 @@ III. **[DPP Record Custody](dpp-record-custody.md)** - Chain of custody and gove
 
 Domain-specific components that provide rich information throughout the product lifecycle.
 
-#### Dynamic Lifecycle Layer
+#### <u>Dynamic Lifecycle Layer</u>
 Models capturing time-dependent changes and events:
 
 I. **[Traceability and Lifecycle Events](traceability-and-life-cycle-events.md)** - Dynamic traceability and supply-chain events
 
 II. **[Diagnostic Results](diagnostic-results.md)** - Structured outputs from diagnostic, repair, service, or condition-assessment operations
 
-#### Operation & Use Layer
+#### <u>Operation & Use Layer</u>
 I. **[Usage and Maintenance](usage-and-maintenance.md)** - Product usage, service/repair actions, and instructions for operation and upkeep
 
-#### Impact Assessment Layer
+#### <u>Impact Assessment Layer</u>
 Models for comprehensive impact calculations:
 
 I. **[Integrated LCA](integrated-lca.md)** - Environmental, social, and economic life cycle assessment data
 
 II. **Product System** *(planned)* - Underlying data model for structuring activities, flows, and elementary exchanges
 
-#### Circularity & End-of-Life Layer
+#### <u>Circularity & End-of-Life Layer</u>
 Circularity metrics and end-of-life pathways:
 
 I. **Circularity and EoL** *(planned)* - Design for circularity, performance scores, and end-of-life information
 
 II. **[RE Indicators Specification](re-indicators-specification.md)** *(under development)* - Specific end-of-life indicators and recovery options
 
-#### Legal, Compliance & Standards Layer
+#### <u>Legal, Compliance & Standards Layer</u>
 Regulatory and standards conformity:
 
 I. **Compliance and Standards** *(planned)* - Regulatory compliance, certifications, and evidence documentation
@@ -78,10 +78,10 @@ II. **Conformity Requirements Specification** *(planned)* - Standard-specific da
 
 Reusable components that support data quality and reliability across all other layers.
 
-#### Uncertainty Layer
+#### <u>Uncertainty Layer</u>
 I. **Uncertainty Quantification** *(planned)* - Generic structures for representing uncertainty in measurements, assessments, and indicators
 
-#### Data Quality Layer
+#### <u>Data Quality Layer</u>
 I. **Data Quality Framework** *(planned)* - Metadata for data quality, provenance, representativeness, completeness, and assessment pedigree
 
 ---
