@@ -1,4 +1,4 @@
-# Product Profile
+# DPP Access and Governance
 
 **Repository**: [https://codeberg.org/CE-RISE-models/dpp-access-and-governance](https://codeberg.org/CE-RISE-models/dpp-access-and-governance)
 
