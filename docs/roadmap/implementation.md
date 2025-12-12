@@ -25,10 +25,10 @@ The following table shows the current development status of all planned models i
 | **Operation & Use** |
 | | `usage-and-maintenance` | Completed | [Usage and Maintenance](../components/usage-and-maintenance.md) | Usage and maintenance data and instructions |
 | **Impact Assessment** |
-| | `integrated-lca` | Under Development | [Integrated LCA](../components/integrated-lca.md) | Environmental, social, and economic LCA data |
+| | `integrated-lca` | Completed | [Integrated LCA](../components/integrated-lca.md) | Environmental, social, and economic LCA data |
 | | `product-system` | Planned | - | Product-system modeling for LCA |
 | **Circularity & End-of-Life** |
-| | `circularity-and-eol` | Planned | - | Circularity metrics and end-of-life information |
+| | `circularity-and-eol` | Completed | [Circularity and End-of-Life](../components/circularity-and-eol.md) | Circularity metrics and end-of-life information |
 | | `re-indicators-specification` | Under Development | [RE Indicators Specification](../components/re-indicators-specification.md) | EoL indicators and recovery options |
 | **Legal, Compliance & Standards** |
 | | `compliance-and-standards` | Planned | - | Regulatory compliance and certifications |
