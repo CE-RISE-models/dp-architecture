@@ -25,7 +25,7 @@ The following table shows the current development status of all planned models i
 | **Operation & Use** |
 | | `usage-and-maintenance` | Completed | [Usage and Maintenance](../components/usage-and-maintenance.md) | Usage and maintenance data and instructions |
 | **Impact Assessment** |
-| | `integrated-lca` | Planned | - | Environmental, social, and economic LCA data |
+| | `integrated-lca` | Under Development | [Integrated LCA](../components/integrated-lca.md) | Environmental, social, and economic LCA data |
 | | `product-system` | Planned | - | Product-system modeling for LCA |
 | **Circularity & End-of-Life** |
 | | `circularity-and-eol` | Planned | - | Circularity metrics and end-of-life information |
