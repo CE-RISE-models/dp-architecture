@@ -4,4 +4,4 @@
 
 **Generated Schemas**: [https://ce-rise-models.codeberg.page/dpp-record-metadata/](https://ce-rise-models.codeberg.page/integrated-lca/)
 
-**Archived Version with DOI**: [https://doi.org/](https://doi.org/)
+**Archived Version with DOI**: [https://doi.org/10.5281/zenodo.17910373](https://doi.org/10.5281/zenodo.17910373)
