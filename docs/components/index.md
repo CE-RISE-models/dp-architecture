@@ -61,14 +61,14 @@ II. **Product System** *(planned)* - Underlying data model for structuring activ
 #### <u>Circularity & End-of-Life Layer</u>
 Circularity metrics and end-of-life pathways:
 
-I. **Circularity and EoL** *(planned)* - Design for circularity, performance scores, and end-of-life information
+I. **[Circularity and EoL](circularity-and-eol.md)** - Design for circularity, performance scores, and end-of-life information
 
 II. **[RE Indicators Specification](re-indicators-specification.md)** *(under development)* - Specific end-of-life indicators and recovery options
 
 #### <u>Legal, Compliance & Standards Layer</u>
 Regulatory and standards conformity:
 
-I. **Compliance and Standards** *(planned)* - Regulatory compliance, certifications, and evidence documentation
+I. **Compliance and Standards** *(forthcoming)* - Regulatory compliance, certifications, and evidence documentation
 
 II. **Conformity Requirements Specification** *(planned)* - Standard-specific data requirements and procedures
 
