@@ -1,4 +1,4 @@
-# Product Profile
+# DPP Record Custody
 
 **Repository**: [https://codeberg.org/CE-RISE-models/dpp-record-custody](https://codeberg.org/CE-RISE-models/dpp-record-custody)
 
