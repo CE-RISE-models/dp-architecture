@@ -31,7 +31,7 @@ The following table shows the current development status of all planned models i
 | | `circularity-and-eol` | Completed | [Circularity and End-of-Life](../components/circularity-and-eol.md) | Circularity metrics and end-of-life information |
 | | `re-indicators-specification` | Under Development | [RE Indicators Specification](../components/re-indicators-specification.md) | EoL indicators and recovery options |
 | **Legal, Compliance & Standards** |
-| | `compliance-and-standards` | Completed | - | Regulatory compliance and certifications |
+| | `compliance-and-standards` | Completed | [Compliance and Standards](../components/compliance-and-standards.md) | Regulatory compliance and certifications |
 | | `conformity-requirements-specification` | Planned | - | Compliance specification layer |
 
 ## C. Cross-Cutting Utility Layers
