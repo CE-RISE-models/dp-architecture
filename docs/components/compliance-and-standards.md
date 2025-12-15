@@ -4,4 +4,4 @@
 
 **Generated Schemas**: [https://ce-rise-models.codeberg.page/compliance-and-standards/](https://ce-rise-models.codeberg.page/compliance-and-standards/)
 
-**Archived Version with DOI**: [https://doi.org/](https://doi.org/)
+**Archived Version with DOI**: [https://doi.org/10.5281/zenodo.17938293](https://doi.org/10.5281/zenodo.17938293)
