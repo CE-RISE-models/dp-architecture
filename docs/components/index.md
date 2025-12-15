@@ -68,7 +68,7 @@ II. **[RE Indicators Specification](re-indicators-specification.md)** *(under de
 #### <u>Legal, Compliance & Standards Layer</u>
 Regulatory and standards conformity:
 
-I. **Compliance and Standards** *(forthcoming)* - Regulatory compliance, certifications, and evidence documentation
+I. **[Compliance and Standards](compliance-and-standards.md)**  - Regulatory compliance, certifications, and evidence documentation
 
 II. **Conformity Requirements Specification** *(planned)* - Standard-specific data requirements and procedures
 

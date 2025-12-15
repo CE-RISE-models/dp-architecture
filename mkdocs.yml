@@ -55,6 +55,7 @@ nav:
           - Integrated Life Cycle Analysis: components/integrated-lca.md
           - Circularity and End of Life: components/circularity-and-eol.md
           - RE Indicators Specification: components/re-indicators-specification.md
+          - Compliance and Standards: components/compliance-and-standards.md
     - Roadmap:
           - Implementation Plan: roadmap/implementation.md
 

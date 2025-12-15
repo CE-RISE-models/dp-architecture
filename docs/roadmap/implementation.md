@@ -13,7 +13,7 @@ The following table shows the current development status of all planned models i
 | **DPP Metadata** |
 | | `dpp-record-metadata` | Completed | [DPP Record Metadata](../components/dpp-record-metadata.md) | Semantic and structural metadata |
 | | `dpp-access-and-governance` | Completed | [DPP Access and Governance](../components/dpp-access-and-governance.md) | Access and operational metadata |
-| | `dpp-record-custody` | Under Development | [DPP Record Custody](../components/dpp-record-custody.md) | Chain of custody and governance history |
+| | `dpp-record-custody` | Completed | [DPP Record Custody](../components/dpp-record-custody.md) | Chain of custody and governance history |
 
 ## B. Value-Added Information Layers
 
@@ -31,7 +31,7 @@ The following table shows the current development status of all planned models i
 | | `circularity-and-eol` | Completed | [Circularity and End-of-Life](../components/circularity-and-eol.md) | Circularity metrics and end-of-life information |
 | | `re-indicators-specification` | Under Development | [RE Indicators Specification](../components/re-indicators-specification.md) | EoL indicators and recovery options |
 | **Legal, Compliance & Standards** |
-| | `compliance-and-standards` | Planned | - | Regulatory compliance and certifications |
+| | `compliance-and-standards` | Under Development | - | Regulatory compliance and certifications |
 | | `conformity-requirements-specification` | Planned | - | Compliance specification layer |
 
 ## C. Cross-Cutting Utility Layers
