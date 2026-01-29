@@ -1,4 +1,5 @@
 # RE Indicators Specification
+**Scope**: TBD
 
 **Repository**: [https://codeberg.org/CE-RISE-models/re-indicators-specification](https://codeberg.org/CE-RISE-models/re-indicators-specification)
 

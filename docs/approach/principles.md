@@ -1,10 +1,10 @@
 # Approach
 
-Instead of being top-down, we use a bottom-up approach of separate independent modules, supported by cross-cutting models that can be reused in different places and with the possibility of having overlapped models where different models are used to represent the same information.
+Instead of being top-down, we use a bottom-up approach of separate independent modules, supported by cross-cutting models that can be reused in different places and with the possibility of having overlapped models where different models are used to represent the same information. This applies to both product and material passports, which share the same architecture while preserving their distinct information needs.
 
-## Core Foundation: Product-Profile
+## Core Foundation: Identification Profile
 
-This is achieved by prescribing only one core model component: the **product-profile**. This is the way by which the passport can be associated with the product and contains immutable data about the product.
+This is achieved by prescribing only one core identification model component: either the **product-profile** (for product passports) or the **material-profile** (for material passports). This is the way by which the passport can be associated with the product or material and contains immutable identification data.
 
 In the analogy with the human passport, this is like the name and date of birth - immutable information to identify the user, or even the fingerprints in the RFID chip of the passport (maybe also the picture, though people and pictures need to be updated some time).
 
@@ -15,11 +15,11 @@ To manage the complexity of modular composition, we organize the architecture in
 ### A. Core Layers
 The foundation of every Digital Product Passport:
 
-* **Product Identification** - Static, foundational, always present - contains the **product-profile** as the required foundation
-* **DPP Metadata** - Three models for comprehensive metadata management:
-  * `dpp-record-metadata` - Semantic and structural metadata for interpreting the DPP
-  * `dpp-access-and-governance` - Operational and access control metadata
-  * `dpp-record-custody` - Chain of custody and governance history
+* **Identification** - Static, foundational, always present - contains either the **product-profile** or **material-profile** as the required foundation
+* **DPP & DMP Metadata** - Three models for comprehensive metadata management:
+  * `dp-record-metadata` - Semantic and structural metadata for interpreting the DPP
+  * `dp-access-and-governance` - Operational and access control metadata
+  * `dp-record-custody` - Chain of custody and governance history
 
 ### B. Value-Added Information Layers
 Domain-specific information that creates value throughout the product lifecycle:
@@ -58,7 +58,7 @@ Users have complete flexibility to select and combine models from the architectu
 
 ### Scalability
 The three-group structure allows organizations to:
-* Start with Core Layers for basic DPP functionality
+* Start with Core Layers for basic DPP & DMP functionality
 * Progressively add Value-Added layers based on business needs
 * Apply Cross-Cutting utilities where data quality matters most
 
@@ -78,4 +78,4 @@ The architecture accommodates evolution through:
 
 This flexibility in the approach allows sophisticated data representations to be easy and less expensive to deploy, but also to be adopted. We do not want to force users into filling in everything but to give the opportunity to use rich information. Hence the possibility to represent traceability, uncertainty, assess data quality, compliance, etc. - all possible and integratable, at low cost for both system designers and system users.
 
-This approach ensures that while maintaining a common foundation through the product-profile and comprehensive DPP metadata models, the architecture remains flexible and adaptable to diverse use cases and evolving requirements. The three-group structure provides clarity in understanding which components are essential (Core), which add specific value (Value-Added Information), and which ensure quality and trust (Cross-Cutting Utility).
+This approach ensures that while maintaining a common foundation through an identification profile and comprehensive DPP & DMP metadata models, the architecture remains flexible and adaptable to diverse use cases and evolving requirements. The three-group structure provides clarity in understanding which components are essential (Core), which add specific value (Value-Added Information), and which ensure quality and trust (Cross-Cutting Utility).

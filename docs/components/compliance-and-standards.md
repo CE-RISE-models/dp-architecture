@@ -1,4 +1,5 @@
 # Compliance and Standards
+**Scope**: TBD
 
 **Repository**: [https://codeberg.org/CE-RISE-models/compliance-and-standards](https://codeberg.org/CE-RISE-models/compliance-and-standards)
 

@@ -1,10 +1,10 @@
-# CE-RISE Digital Product Passport (DPP) Data Model Architecture
+# CE-RISE Digital Product and Material Passport (DPP & DMP) Data Model Architecture
 
-Welcome to the documentation for the CE-RISE Digital Product Passport (DPP) data model architecture. This site explains the approach to data modeling developed and adopted in the CE-RISE project for creating interoperable, future-proof Digital Product Passports.
+Welcome to the documentation for the CE-RISE Digital Product and Material Passport (DPP & DMP) data model architecture. This site explains the approach to data modeling developed and adopted in the CE-RISE project for creating interoperable, future-proof Digital Product and Material Passports.
 
 ## What You'll Find Here
 
-This documentation is organized to guide you through our modular approach to DPP data modeling:
+This documentation is organized to guide you through our modular approach to DPP & DMP data modeling:
 
 ### Approach
 
@@ -31,7 +31,7 @@ Track implementation status and upcoming model availability:
 
 ## Quick Start
 
-1. **New to DPP modeling?** Begin with [Aims & Objectives](approach/aims.md) to understand the vision
+1. **New to DPP & DMP modeling?** Begin with [Aims & Objectives](approach/aims.md) to understand the vision
 2. **Want to see the structure?** Go to [Architecture Overview](architecture/index.md) to explore the three-group architecture
 3. **Need details about specific models?** Navigate through Components organized by Core, Value-Added, and Cross-Cutting layers
 4. **Planning a project?** Review the [Implementation Plan](roadmap/implementation.md) for model availability by architectural group
@@ -40,12 +40,12 @@ Track implementation status and upcoming model availability:
 
 If you use this work in your research or projects, please cite it as:
 
-**Boero, R. (2025).** *CE-RISE Digital Product Passport (DPP) data-model architecture.* DOI: [10.5281/zenodo.17776989](https://doi.org/10.5281/zenodo.17776989)
+**Boero, R. (2025).** *CE-RISE Digital Product and Material Passport (DPP & DMP) data-model architecture.* DOI: [10.5281/zenodo.17776989](https://doi.org/10.5281/zenodo.17776989)
 
 BibTeX:
 ```bibtex
 @software{boero2025cerise,
-  title = {CE-RISE Digital Product Passport (DPP) data-model architecture},
+  title = {CE-RISE Digital Product and Material Passport (DPP & DMP) data-model architecture},
   author = {Boero, Riccardo},
   year = {2025},
   doi = {10.5281/zenodo.17776989},

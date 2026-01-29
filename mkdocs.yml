@@ -1,5 +1,5 @@
-site_name: CE-RISE DPP Data Model Architecture
-site_description: Documentation of the overall CE-RISE Digital Product Passport (DPP) data-model architecture
+site_name: CE-RISE DPP & DMP Data Model Architecture
+site_description: Documentation of the overall CE-RISE Digital Product and Material Passport (DPP & DMP) data-model architecture
 site_url: https://ce-rise-models.codeberg.page/dpp-architecture/
 repo_url: https://codeberg.org/ce-rise-models/dpp-architecture
 repo_name: ce-rise-models/dpp-architecture
@@ -46,9 +46,9 @@ nav:
     - Components:
           - Overview: components/index.md
           - Product Profile: components/product-profile.md
-          - DPP Record Metadata: components/dpp-record-metadata.md
-          - DPP Access and Governance: components/dpp-access-and-governance.md
-          - DPP Record Custody: components/dpp-record-custody.md
+          - DP Record Metadata: components/dp-record-metadata.md
+          - DP Access and Governance: components/dp-access-and-governance.md
+          - DP Record Custody: components/dp-record-custody.md
           - Traceability and Lifecycle Events: components/traceability-and-life-cycle-events.md
           - Diagnostic Results: components/diagnostic-results.md
           - Usage and Maintenance: components/usage-and-maintenance.md

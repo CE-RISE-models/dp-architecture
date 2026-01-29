@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-title: CE-RISE Digital Product Passport (DPP) data-model architecture
+title: CE-RISE Digital Product and Material Passport (DPP & DMP) data-model architecture
 message: >-
   2025.11 - Initial draft of models architecture and dev roadmap.
 type: software
@@ -17,7 +17,7 @@ identifiers:
 repository-code: 'https://codeberg.org/CE-RISE_models/dpp-architecture'
 url: 'https://ce-rise-models.codeberg.page/dpp-architecture/'
 abstract: >-
-  Documentation of the overall CE-RISE DPP data-model architecture, including the structure of core and optional models, their relationships, profiles, and the conceptual approach used to organise and implement Digital Product Passport information.Serves as the source for the project’s published documentation website.
+  Documentation of the overall CE-RISE DPP & DMP data-model architecture, including the structure of core and optional models, their relationships, profiles, and the conceptual approach used to organise and implement Digital Product and Material Passport information. Serves as the source for the project’s published documentation website.
 keywords:
   - CE-RISE
   - Data Model
@@ -25,4 +25,5 @@ keywords:
   - Open Source
   - Open Science
   - Digital Product Passport
+  - Digital Material Passport
 license: CC-BY-NC-4.0

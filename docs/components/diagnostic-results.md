@@ -1,4 +1,5 @@
 # Diagnostic Results
+**Scope**: TBD
 
 **Repository**: [https://codeberg.org/CE-RISE-models/diagnostic-results](https://codeberg.org/CE-RISE-models/diagnostic-results)
 

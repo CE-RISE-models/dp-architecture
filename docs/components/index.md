@@ -1,4 +1,5 @@
 # Components
+**Scope**: TBD
 
 The CE-RISE DPP architecture is organized into three main groups of components, each containing functional layers with specific data models that maintain interoperability across the system.
 
@@ -13,23 +14,26 @@ Foundation components that are essential for every Digital Product Passport.
 #### <u>Product Identification Layer</u>
 I. **[Product Profile](product-profile.md)** - Defines the immutable identity, origin, and basic specification of the product (required)
 
-#### <u>DPP Metadata Layer</u>
-Models providing metadata for DPP record management and governance:
+#### <u>Material Identification Layer</u>
+I. **[Material Profile](material-profile.md)** - Defines the immutable identity, origin, and basic specification of the material (planned)
 
-I. **[DPP Record Metadata](dpp-record-metadata.md)** - Semantic and structural metadata of the DPP record
+#### <u>DPP & DMP Metadata Layer</u>
+Models providing metadata for DPP & DMP record management and governance:
+
+I. **[DP Record Metadata](dp-record-metadata.md)** - Semantic and structural metadata of the DPP record
   * Ontology bindings and schema references
   * Data model versions and profiles
   * Supported representation formats
   * Validation schemas
   
-II. **[DPP Access and Governance](dpp-access-and-governance.md)** - Operational and access-related metadata
+II. **[DP Access and Governance](dp-access-and-governance.md)** - Operational and access-related metadata
   * Access levels and permissions
   * Security settings
   * Data carrier specifications
   * Longevity policies
   * Interoperability configurations
   
-III. **[DPP Record Custody](dpp-record-custody.md)** - Chain of custody and governance history
+III. **[DP Record Custody](dp-record-custody.md)** - Chain of custody and governance history
   * Custody event tracking
   * Custodian identification
   * Transfer authorizations

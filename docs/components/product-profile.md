@@ -1,4 +1,5 @@
 # Product Profile
+**Scope**: DPP
 
 **Repository**: [https://codeberg.org/CE-RISE-models/product-profile](https://codeberg.org/CE-RISE-models/product-profile)
 

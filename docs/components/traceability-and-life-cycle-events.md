@@ -1,4 +1,5 @@
 # Traceability and Life Cycle Events
+**Scope**: TBD
 
 **Repository**: [https://codeberg.org/CE-RISE-models/traceability-and-life-cycle-events](https://codeberg.org/CE-RISE-models/traceability-and-life-cycle-events)
 

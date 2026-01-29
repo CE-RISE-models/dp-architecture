@@ -1,4 +1,5 @@
 # Circularity and End of Life
+**Scope**: TBD
 
 **Repository**: [https://codeberg.org/CE-RISE-models/circularity-and-eol](https://codeberg.org/CE-RISE-models/circularity-and-eol)
 

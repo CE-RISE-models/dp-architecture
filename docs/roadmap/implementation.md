@@ -2,7 +2,7 @@
 
 ## Development Status
 
-The following table shows the current development status of all planned models in the CE-RISE DPP architecture, organized by the three main architectural groups:
+The following table shows the current development status of all planned models in the CE-RISE DPP & DMP architecture, organized by the three main architectural groups:
 
 ## A. Core Layers
 
@@ -10,10 +10,12 @@ The following table shows the current development status of all planned models i
 |-------|-------|--------|------------|-------|
 | **Product Identification** |
 | | `product-profile` | Completed | [Product Profile](../components/product-profile.md) | Required foundation model |
-| **DPP Metadata** |
-| | `dpp-record-metadata` | Completed | [DPP Record Metadata](../components/dpp-record-metadata.md) | Semantic and structural metadata |
-| | `dpp-access-and-governance` | Completed | [DPP Access and Governance](../components/dpp-access-and-governance.md) | Access and operational metadata |
-| | `dpp-record-custody` | Completed | [DPP Record Custody](../components/dpp-record-custody.md) | Chain of custody and governance history |
+| **Material Identification** |
+| | `material-profile` | Planned | [Material Profile](../components/material-profile.md) | Required foundation model for material passports |
+| **DPP & DMP Metadata** |
+| | `dp-record-metadata` | Completed | [DP Record Metadata](../components/dp-record-metadata.md) | Semantic and structural metadata |
+| | `dp-access-and-governance` | Completed | [DP Access and Governance](../components/dp-access-and-governance.md) | Access and operational metadata |
+| | `dp-record-custody` | Completed | [DP Record Custody](../components/dp-record-custody.md) | Chain of custody and governance history |
 
 ## B. Value-Added Information Layers
 
