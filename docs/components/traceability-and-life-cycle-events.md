@@ -1,5 +1,5 @@
 # Traceability and Life Cycle Events
-**Scope**: TBD
+**Scope**: DMP & DPP
 
 **Repository**: [https://codeberg.org/CE-RISE-models/traceability-and-life-cycle-events](https://codeberg.org/CE-RISE-models/traceability-and-life-cycle-events)
 

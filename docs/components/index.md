@@ -1,5 +1,4 @@
 # Components
-**Scope**: TBD
 
 The CE-RISE DPP architecture is organized into three main groups of components, each containing functional layers with specific data models that maintain interoperability across the system.
 

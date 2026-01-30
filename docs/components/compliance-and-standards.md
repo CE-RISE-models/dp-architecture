@@ -1,5 +1,5 @@
 # Compliance and Standards
-**Scope**: TBD
+**Scope**: DMP & DPP
 
 **Repository**: [https://codeberg.org/CE-RISE-models/compliance-and-standards](https://codeberg.org/CE-RISE-models/compliance-and-standards)
 

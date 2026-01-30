@@ -1,5 +1,5 @@
 # Integrated Life Cycle Analysis
-**Scope**: TBD
+**Scope**: DMP & DPP
 
 **Repository**: [https://codeberg.org/CE-RISE-models/integrated-lca](https://codeberg.org/CE-RISE-models/integrated-lca)
 

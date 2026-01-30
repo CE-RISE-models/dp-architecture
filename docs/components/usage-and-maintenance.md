@@ -1,5 +1,5 @@
 # Usage and Maintenance
-**Scope**: TBD
+**Scope**: DPP
 
 **Repository**: [https://codeberg.org/CE-RISE-models/usage-and-maintenance](https://codeberg.org/CE-RISE-models/usage-and-maintenance)
 
