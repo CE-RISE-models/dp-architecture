@@ -11,7 +11,7 @@ The following table shows the current development status of all planned models i
 | **Product Identification** |
 | | `product-profile` | Completed | [Product Profile](../components/product-profile.md) | Required foundation model for product passports |
 | **Material Identification** |
-| | `material-profile` | Planned | [Material Profile](../components/material-profile.md) | Required foundation model for material passports |
+| | `material-profile` | Completed | [Material Profile](../components/material-profile.md) | Required foundation model for material passports |
 | **DPP & DMP Metadata** |
 | | `dp-record-metadata` | Completed | [DP Record Metadata](../components/dp-record-metadata.md) | Semantic and structural metadata |
 | | `dp-access-and-governance` | Completed | [DP Access and Governance](../components/dp-access-and-governance.md) | Access and operational metadata |
@@ -28,7 +28,7 @@ The following table shows the current development status of all planned models i
 | | `usage-and-maintenance` | Completed | [Usage and Maintenance](../components/usage-and-maintenance.md) | Usage and maintenance data and instructions |
 | **Impact Assessment** |
 | | `integrated-lca` | Completed | [Integrated LCA](../components/integrated-lca.md) | Environmental, social, and economic LCA data |
-| | `product-system` | Planned | - | Product-system modeling for LCA |
+| | `assessed-system` | Planned | - | Assessed-system modeling for LCA (products, materials, components, assemblies) |
 | **Circularity & End-of-Life** |
 | | `circularity-and-eol` | Completed | [Circularity and End-of-Life](../components/circularity-and-eol.md) | Circularity metrics and end-of-life information |
 | | `re-indicators-specification` | Under Development | [RE Indicators Specification](../components/re-indicators-specification.md) | EoL indicators and recovery options |

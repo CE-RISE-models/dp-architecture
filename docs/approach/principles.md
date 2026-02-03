@@ -26,7 +26,7 @@ Domain-specific information that creates value throughout the product lifecycle:
 
 * **Dynamic Lifecycle** - Events, operations, and time-dependent changes throughout the product lifecycle
 * **Operation & Use** - How a product is used, maintained, and operated
-* **Impact Assessment** - Environmental, social, and economic impact calculations with underlying product-system models
+* **Impact Assessment** - Environmental, social, and economic impact calculations with underlying assessed-system models
 * **Circularity & End-of-Life** - Circularity criteria, metrics, and end-of-life pathways
 * **Legal, Compliance & Standards** - Regulatory, certification, and normative requirements
 
