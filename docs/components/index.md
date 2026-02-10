@@ -66,7 +66,7 @@ Circularity metrics and end-of-life pathways:
 
 I. **[Circularity and EoL](circularity-and-eol.md)** - Design for circularity, performance scores, and end-of-life information
 
-II. **[RE Indicators Specification](re-indicators-specification.md)** *(under development)* - Specific end-of-life indicators and recovery options
+II. **[RE Indicators Specification](re-indicators-specification.md)** - Specific end-of-life indicators and recovery options
 
 #### <u>Legal, Compliance & Standards Layer</u>
 Regulatory and standards conformity:

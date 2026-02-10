@@ -81,7 +81,7 @@ Defines circularity metrics, design principles, and end-of-life pathways.
 Comprehensive circularity and end-of-life information.
 
 **`re-indicators-specification`**  
-Specific end-of-life indicators and recovery options.
+Specific end-of-life indicators and recovery options for selected products.
 
 ### B5. Legal, Compliance & Standards
 Ensures regulatory compliance and standards conformity throughout the product lifecycle.
