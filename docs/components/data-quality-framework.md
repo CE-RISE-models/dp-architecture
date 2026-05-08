@@ -1,7 +1,7 @@
 # Data Quality Framework
 **Scope**: DMP & DPP
 
-**Status**: Under Development
+**Status**: Completed
 
 **Repository**: [https://codeberg.org/CE-RISE-models/data-quality-framework](https://codeberg.org/CE-RISE-models/data-quality-framework)
 

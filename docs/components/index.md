@@ -87,7 +87,7 @@ I. **[Uncertainty Quantification](uncertainty-quantification.md)** *(completed)*
 II. **[Metrological Traceability](metrological-traceability.md)** *(completed)* - Reusable structures for documenting the metrological and methodological reference basis of measured, calculated, method-defined, or boundary-defined values
 
 #### <u>Data Quality Layer</u>
-I. **[Data Quality Framework](data-quality-framework.md)** *(under development)* - Metadata for data quality, provenance, representativeness, completeness, and assessment pedigree
+I. **[Data Quality Framework](data-quality-framework.md)** *(completed)* - Metadata for data quality, provenance, representativeness, completeness, and assessment pedigree
 
 ---
 
