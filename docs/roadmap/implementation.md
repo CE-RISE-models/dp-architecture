@@ -41,7 +41,7 @@ The following table shows the current development status of all models in the CE
 | Layer | Model | Status | Repository | Notes |
 |-------|-------|--------|------------|-------|
 | **Uncertainty** |
-| | `uncertainty-quantification` | Under Development | [Uncertainty Quantification](../components/uncertainty-quantification.md) | Generic uncertainty representation structures |
+| | `uncertainty-quantification` | Completed | [Uncertainty Quantification](../components/uncertainty-quantification.md) | Generic uncertainty representation structures |
 | | `metrological-traceability` | Under Development | [Metrological Traceability](../components/metrological-traceability.md) | Metrological, methodological, and boundary traceability for reported values |
 | **Data Quality** |
 | | `data-quality-framework` | Under Development | [Data Quality Framework](../components/data-quality-framework.md) | Data quality, provenance, representativeness, completeness, and assessment pedigree metadata |
