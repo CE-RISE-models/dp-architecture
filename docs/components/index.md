@@ -82,10 +82,12 @@ II. **Conformity Requirements Specification** *(planned)* - Standard-specific da
 Reusable components that support data quality and reliability across all other layers.
 
 #### <u>Uncertainty Layer</u>
-I. **Uncertainty Quantification** *(planned)* - Generic structures for representing uncertainty in measurements, assessments, and indicators
+I. **[Uncertainty Quantification](uncertainty-quantification.md)** *(under development)* - Generic structures for representing uncertainty in measurements, assessments, and indicators
+
+II. **[Metrological Traceability](metrological-traceability.md)** *(under development)* - Reusable structures for documenting the metrological and methodological reference basis of measured, calculated, method-defined, or boundary-defined values
 
 #### <u>Data Quality Layer</u>
-I. **Data Quality Framework** *(planned)* - Metadata for data quality, provenance, representativeness, completeness, and assessment pedigree
+I. **[Data Quality Framework](data-quality-framework.md)** *(under development)* - Metadata for data quality, provenance, representativeness, completeness, and assessment pedigree
 
 ---
 

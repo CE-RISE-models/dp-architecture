@@ -101,14 +101,25 @@ Specification layer for compliance and normative information needs.
 These layers provide reusable components that support data quality and reliability across all other layers.
 
 ### C1. Uncertainty
-**Model: `uncertainty-quantification`**  
+**Models:**
+
+**`uncertainty-quantification`**  
 Generic structures for representing uncertainty in measurements, assessments, and indicators.
+
+Repository: [https://codeberg.org/CE-RISE-models/uncertainty-quantification](https://codeberg.org/CE-RISE-models/uncertainty-quantification)
+
+**`metrological-traceability`**  
+Reusable structures for documenting the metrological and methodological reference basis of measured, calculated, method-defined, or boundary-defined values.
+
+Repository: [https://codeberg.org/CE-RISE-models/metrological-traceability](https://codeberg.org/CE-RISE-models/metrological-traceability)
 
 **Used by:** All layers where measurements, predictions, or assessments contain uncertainty
 
 ### C2. Data Quality
 **Model: `data-quality-framework`**  
 Defines metadata for data quality, provenance, representativeness, completeness, and assessment pedigree.
+
+Repository: [https://codeberg.org/CE-RISE-models/data-quality-framework](https://codeberg.org/CE-RISE-models/data-quality-framework)
 
 **Used by:** All layers to ensure transparency and trust in data
 

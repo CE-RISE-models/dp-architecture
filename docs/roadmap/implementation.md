@@ -2,7 +2,7 @@
 
 ## Development Status
 
-The following table shows the current development status of all planned models in the CE-RISE DPP & DMP architecture, organized by the three main architectural groups:
+The following table shows the current development status of all models in the CE-RISE DPP & DMP architecture, organized by the three main architectural groups:
 
 ## A. Core Layers
 
@@ -41,9 +41,10 @@ The following table shows the current development status of all planned models i
 | Layer | Model | Status | Repository | Notes |
 |-------|-------|--------|------------|-------|
 | **Uncertainty** |
-| | `uncertainty-quantification` | Planned | - | Generic uncertainty representation structures |
+| | `uncertainty-quantification` | Under Development | [Codeberg](https://codeberg.org/CE-RISE-models/uncertainty-quantification) | Generic uncertainty representation structures |
+| | `metrological-traceability` | Under Development | [Codeberg](https://codeberg.org/CE-RISE-models/metrological-traceability) | Metrological, methodological, and boundary traceability for reported values |
 | **Data Quality** |
-| | `data-quality-framework` | Planned | - | Data quality and provenance metadata |
+| | `data-quality-framework` | Under Development | [Codeberg](https://codeberg.org/CE-RISE-models/data-quality-framework) | Data quality, provenance, representativeness, completeness, and assessment pedigree metadata |
 
 ## Status Legend
 

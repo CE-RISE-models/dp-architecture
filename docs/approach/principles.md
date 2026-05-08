@@ -33,7 +33,7 @@ Domain-specific information that creates value throughout the product lifecycle:
 ### C. Cross-Cutting Utility Layers
 Reusable components that enhance data quality and reliability across all other layers:
 
-* **Uncertainty** - Generic structures for representing uncertainty in any measurement or assessment
+* **Uncertainty** - Generic structures for representing uncertainty in measurements or assessments, and for documenting their metrological or methodological traceability basis
 * **Data Quality** - Metadata for provenance, representativeness, completeness, and assessment pedigree
 
 ## Modular Composition
@@ -60,13 +60,13 @@ Users have complete flexibility to select and combine models from the architectu
 The three-group structure allows organizations to:
 * Start with Core Layers for basic DPP & DMP functionality
 * Progressively add Value-Added layers based on business needs
-* Apply Cross-Cutting utilities where data quality matters most
+* Apply Cross-Cutting utilities where data quality, traceability, or uncertainty matter most
 
 ### Interoperability
 By separating concerns into groups:
 * Core layers ensure universal product identification
 * Value-Added layers can vary by industry or use case
-* Cross-Cutting layers provide consistent quality metadata
+* Cross-Cutting layers provide consistent reliability and quality metadata
 
 ### Future-Proofing
 The architecture accommodates evolution through:
@@ -76,6 +76,6 @@ The architecture accommodates evolution through:
 
 ## Flexibility Benefits
 
-This flexibility in the approach allows sophisticated data representations to be easy and less expensive to deploy, but also to be adopted. We do not want to force users into filling in everything but to give the opportunity to use rich information. Hence the possibility to represent traceability, uncertainty, assess data quality, compliance, etc. - all possible and integratable, at low cost for both system designers and system users.
+This flexibility in the approach allows sophisticated data representations to be easy and less expensive to deploy, but also to be adopted. We do not want to force users into filling in everything but to give the opportunity to use rich information. Hence the possibility to represent metrological traceability, uncertainty, data quality, compliance, etc. - all possible and integratable, at low cost for both system designers and system users.
 
 This approach ensures that while maintaining a common foundation through an identification profile and comprehensive DPP & DMP metadata models, the architecture remains flexible and adaptable to diverse use cases and evolving requirements. The three-group structure provides clarity in understanding which components are essential (Core), which add specific value (Value-Added Information), and which ensure quality and trust (Cross-Cutting Utility).

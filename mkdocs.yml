@@ -57,6 +57,9 @@ nav:
           - Circularity and End of Life: components/circularity-and-eol.md
           - RE Indicators Specification: components/re-indicators-specification.md
           - Compliance and Standards: components/compliance-and-standards.md
+          - Uncertainty Quantification: components/uncertainty-quantification.md
+          - Metrological Traceability: components/metrological-traceability.md
+          - Data Quality Framework: components/data-quality-framework.md
     - Roadmap:
           - Implementation Plan: roadmap/implementation.md
 
