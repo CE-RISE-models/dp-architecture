@@ -1,7 +1,7 @@
 # Metrological Traceability
 **Scope**: DMP & DPP
 
-**Status**: Under Development
+**Status**: Completed
 
 **Repository**: [https://codeberg.org/CE-RISE-models/metrological-traceability](https://codeberg.org/CE-RISE-models/metrological-traceability)
 

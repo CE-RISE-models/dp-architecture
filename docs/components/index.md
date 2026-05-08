@@ -84,7 +84,7 @@ Reusable components that support data quality and reliability across all other l
 #### <u>Uncertainty Layer</u>
 I. **[Uncertainty Quantification](uncertainty-quantification.md)** *(completed)* - Generic structures for representing uncertainty in measurements, assessments, and indicators
 
-II. **[Metrological Traceability](metrological-traceability.md)** *(under development)* - Reusable structures for documenting the metrological and methodological reference basis of measured, calculated, method-defined, or boundary-defined values
+II. **[Metrological Traceability](metrological-traceability.md)** *(completed)* - Reusable structures for documenting the metrological and methodological reference basis of measured, calculated, method-defined, or boundary-defined values
 
 #### <u>Data Quality Layer</u>
 I. **[Data Quality Framework](data-quality-framework.md)** *(under development)* - Metadata for data quality, provenance, representativeness, completeness, and assessment pedigree
