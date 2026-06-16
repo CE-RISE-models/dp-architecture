@@ -11,10 +11,10 @@ The CE-RISE DPP architecture is organized into three main groups of components, 
 Foundation components that are essential for every Digital Product Passport.
 
 #### <u>Product Identification Layer</u>
-I. **[Product Profile](product-profile.md)** - Defines the immutable identity, origin, and basic specification of the product (required)
+I. **[Product Profile](product-profile.md)** - Defines the immutable identity, origin, and basic specification of the product
 
 #### <u>Material Identification Layer</u>
-I. **[Material Profile](material-profile.md)** - Defines the immutable identity, origin, and basic specification of the material (planned)
+I. **[Material Profile](material-profile.md)** - Defines the immutable identity, origin, and basic specification of the material
 
 #### <u>DPP & DMP Metadata Layer</u>
 Models providing metadata for DPP & DMP record management and governance:
