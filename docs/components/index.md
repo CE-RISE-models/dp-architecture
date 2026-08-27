@@ -59,7 +59,7 @@ Models for comprehensive impact calculations:
 
 I. **[Integrated LCA](integrated-lca.md)** - Environmental, social, and economic life cycle assessment data
 
-II. **Assessed System** *(planned)* - Underlying data model for structuring activities, flows, and elementary exchanges for products, materials, components, or assemblies
+II. **[Product System](product-system.md)** *(completed)* - Reusable life cycle inventory model for structuring activities, flows, flow objects, reference flows, and exchanges for products, materials, components, or assemblies
 
 #### <u>Circularity & End-of-Life Layer</u>
 Circularity metrics and end-of-life pathways:

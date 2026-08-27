@@ -28,7 +28,7 @@ The following table shows the current development status of all models in the CE
 | | `usage-and-maintenance` | Completed | [Usage and Maintenance](../components/usage-and-maintenance.md) | Usage and maintenance data and instructions |
 | **Impact Assessment** |
 | | `integrated-lca` | Completed | [Integrated LCA](../components/integrated-lca.md) | Environmental, social, and economic LCA data |
-| | `assessed-system` | Planned | - | Assessed-system modeling for LCA (products, materials, components, assemblies) |
+| | `product-system` | Completed | [Product System](../components/product-system.md) | Reusable life cycle inventory modeling for products, materials, components, and assemblies |
 | **Circularity & End-of-Life** |
 | | `circularity-and-eol` | Completed | [Circularity and End-of-Life](../components/circularity-and-eol.md) | Circularity metrics and end-of-life information |
 | | `re-indicators-specification` | Completed | [RE Indicators Specification](../components/re-indicators-specification.md) | EoL indicators and recovery options |

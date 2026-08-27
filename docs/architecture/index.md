@@ -69,8 +69,8 @@ Supports comprehensive environmental, social, and economic impact calculations.
 **`integrated-lca`**  
 Represents integrated LCA results, including environmental, social, and economic impact indicators, methodological metadata, calculation parameters, characterization choices, and assessment settings.
 
-**`assessed-system`**  
-The underlying assessed-system data model used to structure activities, flows, and elementary exchanges for products, materials, components, or assemblies.
+**`product-system`**<br>
+Reusable life cycle inventory data model used to structure activities, flows, flow objects, reference flows, and exchanges for products, materials, components, or assemblies.
 
 ### B4. Circularity & End-of-Life
 Defines circularity metrics, design principles, and end-of-life pathways.
