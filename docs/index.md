@@ -21,20 +21,14 @@ Explore the technical structure organized into three main groups:
 * **[Profiles](architecture/profiles.md)** - Flexible model composition approach
 
 ### Components
-Need details about a specific data model? Navigate through available data models organized by architectural group and find references to more info.
-
-### Roadmap
-
-Track implementation status and upcoming model availability:
-
-* **[Implementation Plan](roadmap/implementation.md)** - Current status of model development organized by architectural groups
+Need details about a specific data model? Review the **[Components Overview](components/index.md)** for available models organized by architectural group and references to more information.
 
 ## Quick Start
 
 1. **New to DPP & DMP modeling?** Begin with [Aims & Objectives](approach/aims.md) to understand the vision
 2. **Want to see the structure?** Go to [Architecture Overview](architecture/index.md) to explore the three-group architecture
-3. **Need details about specific models?** Navigate through Components organized by Core, Value-Added, and Cross-Cutting layers
-4. **Planning a project?** Review the [Implementation Plan](roadmap/implementation.md) for model availability by architectural group
+3. **Need details about specific models?** Review the [Components Overview](components/index.md) organized by Core, Value-Added, and Cross-Cutting layers
+4. **Planning a project?** Review the [Components Overview](components/index.md) for model availability and planned components
 
 ## Citation
 

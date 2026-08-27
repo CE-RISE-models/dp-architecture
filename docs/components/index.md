@@ -59,7 +59,7 @@ Models for comprehensive impact calculations:
 
 I. **[Integrated LCA](integrated-lca.md)** - Environmental, social, and economic life cycle assessment data
 
-II. **[Product System](product-system.md)** *(completed)* - Reusable life cycle inventory model for structuring activities, flows, flow objects, reference flows, and exchanges for products, materials, components, or assemblies
+II. **[Product System](product-system.md)** - Reusable life cycle inventory model for structuring activities, flows, flow objects, reference flows, and exchanges for products, materials, components, or assemblies
 
 #### <u>Circularity & End-of-Life Layer</u>
 Circularity metrics and end-of-life pathways:
@@ -82,12 +82,12 @@ II. **Conformity Requirements Specification** *(planned)* - Standard-specific da
 Reusable components that support data quality and reliability across all other layers.
 
 #### <u>Uncertainty Layer</u>
-I. **[Uncertainty Quantification](uncertainty-quantification.md)** *(completed)* - Generic structures for representing uncertainty in measurements, assessments, and indicators
+I. **[Uncertainty Quantification](uncertainty-quantification.md)** - Generic structures for representing uncertainty in measurements, assessments, and indicators
 
-II. **[Metrological Traceability](metrological-traceability.md)** *(completed)* - Reusable structures for documenting the metrological and methodological reference basis of measured, calculated, method-defined, or boundary-defined values
+II. **[Metrological Traceability](metrological-traceability.md)** - Reusable structures for documenting the metrological and methodological reference basis of measured, calculated, method-defined, or boundary-defined values
 
 #### <u>Data Quality Layer</u>
-I. **[Data Quality Framework](data-quality-framework.md)** *(completed)* - Metadata for data quality, provenance, representativeness, completeness, and assessment pedigree
+I. **[Data Quality Framework](data-quality-framework.md)** - Metadata for data quality, provenance, representativeness, completeness, and assessment pedigree
 
 ---
 

@@ -61,9 +61,6 @@ nav:
           - Uncertainty Quantification: components/uncertainty-quantification.md
           - Metrological Traceability: components/metrological-traceability.md
           - Data Quality Framework: components/data-quality-framework.md
-    - Roadmap:
-          - Implementation Plan: roadmap/implementation.md
-
 extra:
     copyright: |
         &copy; 2025 CE-RISE consortium. Licensed under
