@@ -55,6 +55,7 @@ nav:
           - Usage and Maintenance: components/usage-and-maintenance.md
           - Integrated Life Cycle Analysis: components/integrated-lca.md
           - Product System: components/product-system.md
+          - Life Cycle Inventory Dataset: components/lci-dataset.md
           - Circularity and End of Life: components/circularity-and-eol.md
           - RE Indicators Specification: components/re-indicators-specification.md
           - Compliance and Standards: components/compliance-and-standards.md

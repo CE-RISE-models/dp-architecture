@@ -57,9 +57,11 @@ I. **[Usage and Maintenance](usage-and-maintenance.md)** - Product usage, servic
 #### <u>Impact Assessment Layer</u>
 Models for comprehensive impact calculations:
 
-I. **[Integrated LCA](integrated-lca.md)** - Environmental, social, and economic life cycle assessment data
+I. **[Integrated LCA](integrated-lca.md)** - Environmental, social, and economic assessment inputs, methods, results, and interpretation
 
-II. **[Product System](product-system.md)** - Reusable life cycle inventory model for structuring activities, flows, flow objects, reference flows, and exchanges for products, materials, components, or assemblies
+II. **[Product System](product-system.md)** - Calculation-specific assembly of versioned LCI datasets and selected activities, with reference-flow and provenance information
+
+III. **[Life Cycle Inventory Dataset](lci-dataset.md)** - Reusable inventory activities, flows, flow objects, exchange quantities, and source provenance
 
 #### <u>Circularity & End-of-Life Layer</u>
 Circularity metrics and end-of-life pathways:
